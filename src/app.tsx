@@ -8,7 +8,7 @@ function App() {
   return (
     <WagmiConfig config={wagmiConfig}>
       <QueryClientProvider client={queryClient}>
-        <RainbowKitProvider chains={chains}>
+        <RainbowKitProvider chains={chains} locale="en-US">
           <Home />
         </RainbowKitProvider>
       </QueryClientProvider>

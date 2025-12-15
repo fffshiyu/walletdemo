@@ -2,6 +2,12 @@
 
 [English](#english) | [中文](#中文)
 
+## 🌐 Live Demo
+
+**Try it now:** [https://my-app-wheat-iota-66.vercel.app/](https://my-app-wheat-iota-66.vercel.app/)
+
+![App Screenshot](./screenshot.png)
+
 ---
 
 ## English
@@ -9,6 +15,16 @@
 ### 📖 Introduction
 
 A modern React application demonstrating wallet connection functionality using RainbowKit and Wagmi. This demo supports multiple wallet providers with a focus on Rabby Wallet integration.
+
+**What does this app do?**
+
+This is a simple Web3 wallet connection demo that lets you:
+- Click a button to connect your crypto wallet (like Rabby, MetaMask, etc.)
+- See your wallet address once connected
+- View your ETH balance across different blockchain networks
+- Switch between different blockchains (Ethereum, Polygon, etc.)
+
+Perfect for learning how to integrate wallet connections into your own Web3 apps!
 
 ### ✨ Features
 
@@ -21,12 +37,20 @@ A modern React application demonstrating wallet connection functionality using R
 
 ### 🛠️ Tech Stack
 
-- **React 18** - UI library
-- **TypeScript** - Type safety
-- **Vite** - Build tool and dev server
-- **RainbowKit** - Wallet connection UI
-- **Wagmi** - React hooks for Ethereum
-- **TanStack Query** - Data fetching and caching
+**Frontend Framework:**
+- **React 18** - Modern UI library for building user interfaces
+- **TypeScript** - Adds type safety to JavaScript
+
+**Development Tools:**
+- **Vite** - Super fast build tool with instant hot reload
+
+**Web3 Integration:**
+- **RainbowKit** - Beautiful, ready-to-use wallet connection UI
+- **Wagmi** - React hooks that make working with Ethereum simple
+- **WalletConnect** - Protocol for connecting mobile wallets
+
+**Data Management:**
+- **TanStack Query** - Handles data fetching and caching automatically
 
 ### 📦 Installation
 
@@ -105,6 +129,16 @@ MIT
 
 这是一个现代化的 React 应用程序，演示了使用 RainbowKit 和 Wagmi 实现钱包连接功能。该演示支持多个钱包提供商，重点集成了 Rabby Wallet。
 
+**这个应用做什么？**
+
+这是一个简单的 Web3 钱包连接演示，让您可以：
+- 点击按钮连接您的加密钱包（如 Rabby、MetaMask 等）
+- 连接后查看您的钱包地址
+- 查看不同区块链网络上的 ETH 余额
+- 在不同区块链之间切换（以太坊、Polygon 等）
+
+非常适合学习如何将钱包连接功能集成到您自己的 Web3 应用中！
+
 ### ✨ 功能特性
 
 - 🔗 **多钱包支持**：连接各种 Web3 钱包，包括 Rabby Wallet、MetaMask、Coinbase Wallet 等
@@ -116,12 +150,20 @@ MIT
 
 ### 🛠️ 技术栈
 
-- **React 18** - UI 框架
-- **TypeScript** - 类型安全
-- **Vite** - 构建工具和开发服务器
-- **RainbowKit** - 钱包连接 UI
-- **Wagmi** - 以太坊 React Hooks
-- **TanStack Query** - 数据获取和缓存
+**前端框架：**
+- **React 18** - 现代化的用户界面构建库
+- **TypeScript** - 为 JavaScript 添加类型安全
+
+**开发工具：**
+- **Vite** - 超快的构建工具，支持即时热更新
+
+**Web3 集成：**
+- **RainbowKit** - 精美的、开箱即用的钱包连接 UI
+- **Wagmi** - 让以太坊开发变得简单的 React Hooks
+- **WalletConnect** - 连接移动端钱包的协议
+
+**数据管理：**
+- **TanStack Query** - 自动处理数据获取和缓存
 
 ### 📦 安装
 
